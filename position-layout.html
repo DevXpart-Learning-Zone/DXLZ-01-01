@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+
+	<style>
+		.head {
+			border: 1px solid #ddd;
+			height: 60px;
+		}
+
+		.menu {
+			display: inline-block;
+			position: absolute;
+			right: 0px;
+			overflow: auto;
+		}
+
+		.logo {
+			width: 120px;
+			display: inline-block;
+		}
+
+		.nav {
+			list-style: none;
+			background: #ddd;
+			margin: 0;
+		}
+
+		.nav li {
+			display: inline-block;
+			padding: 17px;
+		}
+
+		.list-item {
+			text-decoration: none;
+		}
+
+		.sidebar {
+			width: 200px;
+			border: 2px solid red;
+			position: absolute;
+			left: 0px;
+		}
+
+		.content {
+			position: absolute;
+			right: 0px;
+		}
+
+		.body {
+			min-height: 500px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="head">
+		<div class="logo">DevXpart</div>
+		<div class="menu">
+			<ul class="nav">
+				<li><a href="#" class="list-item">Home</a></li>
+				<li><a href="#" class="list-item">About</a></li>
+				<li><a href="#" class="list-item">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="body">
+		<div class="sidebar">
+			<ul class="nav">
+				<li><a href="#" class="list-item">Home</a></li>
+				<li><a href="#" class="list-item">About</a></li>
+				<li><a href="#" class="list-item">Contact</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			this is main content
+		</div>
+	</div>
+
+	<div class="footer">This is footer</div>
+</body>
+
+</html>

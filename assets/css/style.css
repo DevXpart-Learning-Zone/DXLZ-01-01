@@ -1,0 +1,186 @@
+/* .myList {
+	/* list-style-type: lower-roman;
+	/* list-style-image: url('../images/li.PNG');
+	/* list-style: upper-roman;
+}
+
+table,
+tr,
+td,
+th {
+	border: 1px solid #ddd;
+}
+
+.myTable {
+	border: 10px solid transparent;
+	width: 100%;
+	text-align: right;
+	border-image: url('../images/b.PNG') 20% round;
+}
+
+.myTable th {
+	text-align: center;
+}
+
+.myTable td {
+	height: 50px;
+	vertical-align: top;
+	padding: 20px 10px;
+}
+
+.myTable tr:hover {
+	background: #ddd;
+	color: red;
+}
+
+.myTable tr:nth-child(odd) {
+	background: rgb(184, 184, 221);
+}
+
+.myTable tr:nth-child(even) {
+	background: rgb(238, 158, 165);
+}
+
+.myTable th {
+	background: green;
+}
+
+.first,
+.second {
+	padding: 2rem;
+	width: 300px;
+}
+
+.main {
+	float: right;
+	width: 100%;
+	border: 2px solid #ddd;
+}
+
+.first {
+	float: none;
+	background: red;
+}
+
+.second {
+	float: left;
+	background: green;
+} */
+
+/* .main_div {
+	background: #ebebeb;
+	padding: 10px;
+}
+
+.left {
+	width: 50%;
+	display: inline-block;
+}
+
+.right {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+.main_div .left h3 {
+	margin: 0;
+}
+
+.right a {
+	background: #fff;
+	padding: 0px;
+	border-radius: 50%;
+	box-shadow: 1px 2px 5px #b6b6b6;
+} */
+
+/* .panel {
+	border: 1px solid #ddd;
+}
+
+.panel p {
+	display: inline;
+}
+
+.right {
+	float: right;
+	background: #0cf1e7;
+	margin: 6px;
+	padding: 6px;
+	font-size: 8px;
+	border-radius: 4px;
+}
+
+.panel .material-icons {
+	padding: 6px;
+} */
+
+body {
+	margin: 0;
+}
+
+.nav-div {
+	background: rgb(0, 187, 194);
+}
+
+.nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav-item {
+	float: left;
+}
+
+.nav-item a {
+	text-decoration: none;
+	padding: 13px 17px;
+	color: #fff;
+	display: inline-block;
+	border-right: 1px solid #003a3c4d;
+}
+
+.nav-item a:hover {
+	background: rgb(3, 140, 145);
+}
+
+.nav-div-sidebar {
+	background: rgb(12, 12, 29);
+	width: 300px;
+	height: 800px;
+}
+
+
+.nav-sidebar {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav-item-sidebar a {
+	text-decoration: none;
+	padding: 13px 17px;
+	color: #fff;
+	display: block;
+}
+
+.nav-item-sidebar a:hover {
+	background: rgb(91, 91, 92);
+}
+
+.aaa {
+	display: none;
+}
+
+.hov:hover .aaa {
+	display: block;
+	position: absolute;
+	background: #dd1212;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
