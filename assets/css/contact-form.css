@@ -1,0 +1,33 @@
+.contact-form-bg {
+	background-image: url('../images/contact2.jpg');
+	padding: 70px 40px;
+	background-position: 0 0 !important;
+	background-repeat: no-repeat !important;
+}
+
+.form-control {
+	margin-bottom: 15px;
+}
+
+.contact-form-right {
+	padding: 20px;
+}
+
+.form-input {
+	display: block;
+	border: 2px solid #ec1544;
+	padding: 10px 0px 10px 10px;
+}
+
+.form-input:focus {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .09) inset;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .09) inset;
+}
+
+.width-100 {
+	width: 100%
+}
+
+.contact-section {
+	background: #f9f9f9;
+}
