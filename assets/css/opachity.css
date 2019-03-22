@@ -1,0 +1,11 @@
+.opacity-div {
+	height: 250px;
+	width: 200px;
+	background: rgb(47, 0, 255);
+	background-image: url('../images/left-back.PNG');
+}
+
+.opacity-div:hover {
+	opacity: 0.5;
+	background: rgba(0, 0, 0, 0.123);
+}
