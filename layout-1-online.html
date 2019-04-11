@@ -94,6 +94,24 @@
 		.center {
 			padding: 90px 4px;
 		}
+
+		.hide-on-mobile {
+			display: block;
+		}
+
+		.show-on-mobile {
+			display: none;
+		}
+
+		@media all and (max-width: 600px) {
+			.hide-on-mobile {
+				display: none;
+			}
+
+			.show-on-mobile {
+				display: block;
+			}
+		}
 	</style>
 </head>
 
@@ -103,7 +121,8 @@
 			<div class="logo">
 				<img src="assets/images/logo.png">
 			</div>
-			<div class="menu">
+			<button class="show-on-mobile">Menu</button>
+			<div class="menu hide-on-mobile">
 				<ul class="nav">
 					<li class="list-item"><a href="#">Home</a></li>
 					<li class="list-item"><a href="#">Featured</a></li>
@@ -121,25 +140,34 @@
 			<div class="col-3">
 				<img src="assets/images/f1.png">
 				<h3>Online Support</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-					sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-					pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+					massa. Cum
+					sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+					ultricies nec,
+					pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+					vel, aliquet nec,
 					vulputate eget, arcu. In enim justo,</p>
 			</div>
 			<div class="col-3">
 				<img src="assets/images/f1.png">
 				<h3>Online Support</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-					sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-					pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+					massa. Cum
+					sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+					ultricies nec,
+					pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+					vel, aliquet nec,
 					vulputate eget, arcu. In enim justo,</p>
 			</div>
 			<div class="col-3">
 				<img src="assets/images/f1.png">
 				<h3>Online Support</h3>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-					sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
-					pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+					massa. Cum
+					sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+					ultricies nec,
+					pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla
+					vel, aliquet nec,
 					vulputate eget, arcu. In enim justo,</p>
 			</div>
 		</div>
