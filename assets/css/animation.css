@@ -1,0 +1,43 @@
+@keyframes change-color {
+    0% {
+        background: rgb(74, 33, 255);
+        left: 100px;
+    }
+
+    30% {
+        background: #fc3682;
+        left: 200px;
+    }
+
+    50% {
+        background: #fc3682;
+        left: 300px;
+    }
+
+    80% {
+        background: #fc3682;
+        left: 200px;
+    }
+
+    90% {
+        background: #fc3682;
+        left: 100px;
+    }
+
+    100% {
+        background: #0eff72;
+        left: 0px;
+    }
+}
+
+.animated {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 0px;
+    background: #0eff72;
+    background: #fff;
+    animation-name: change-color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}

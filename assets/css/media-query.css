@@ -1,0 +1,21 @@
+.main {
+    width: 990px;
+    margin: 0 auto;
+    background: #ddd;
+}
+
+@media screen and (min-width: 450px) and (max-width: 990px) {
+    .main {
+        width: 100%;
+        margin: 10px auto;
+        background: red;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .main {
+        width: 100%;
+        margin: 10px auto;
+        background: green;
+    }
+}

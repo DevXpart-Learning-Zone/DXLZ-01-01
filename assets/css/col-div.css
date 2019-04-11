@@ -1,0 +1,92 @@
+html {
+  font-family: "Roboto";
+}
+
+.col-3 {
+  display: inline-block;
+  width: 25%;
+  padding: 30px 20px;
+}
+
+.white-bg {
+  background: #f2f2f2;
+}
+
+.yellow-bg {
+  background: #fcba1f;
+  color: #fff;
+}
+
+.yellow-bg .disc,
+.dark-bg .disc,
+.dark-bg .title {
+  color: #fff;
+}
+
+.dark-bg {
+  background-color: #31343a;
+}
+
+.icon {
+  padding-bottom: 16px;
+}
+
+.title {
+  margin-top: 0px;
+  font-weight: 700;
+  padding-bottom: 6px;
+  font-family: "Montserrat";
+}
+
+.disc {
+  margin-top: -15px;
+  color: #7b7b7b;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 2px;
+  font-size: 12px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.btn-white {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn-yellow {
+  color: #131313;
+  border: 2px solid #fcba1f;
+}
+
+.gradient {
+  height: 200px;
+  background-image: radial-gradient(circle, rgba(255, 0, 0, 0.452), rgba(255, 255, 0, 0.541), blue, black);
+}
+
+.shadow {
+  height: 100px;
+  margin: 10px;
+  box-shadow: 10px 10px 20px rgb(228, 228, 228);
+}
+
+.text-shadow {
+  text-shadow: 10px 20px red;
+}
+
+@media screen and (max-width: 720px) {
+  .col-3 {
+    display: block;
+    width: 100%;
+  }
+}
