@@ -1,0 +1,31 @@
+.main {
+    font-size: 26px;
+}
+
+.left {
+    width: 40%;
+    height: 500px;
+    float: left;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.right {
+    width: 60%;
+    height: 500px;
+    float: left;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .main {
+        font-size: 16px;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        height: auto;
+    }
+}
