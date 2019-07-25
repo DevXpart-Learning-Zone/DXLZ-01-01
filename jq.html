@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+        .red {
+            color: red;
+        }
+
+        .box {
+            position: absolute;
+            top: 100px;
+            height: 100px;
+            width: 100px;
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="box">A</div>
+    <div class="notification">Good Evening, User!</div>
+    <button id="myBtn">Click me</button>
+    <button id="show">Show</button> -->
+    <p id="abc">A</p>
+</body>
+<script>
+    $(document).ready(function () {
+        // var abc = document.getElementById('abc').innerHTML;
+        // console.log(abc);
+
+        // var xyz = $('.abc').html();
+        // console.log(xyz);
+
+        // $("#abc").add("div").css("color", "red");
+        $("#abc").addClass("red");
+        $('#abc').append('<br> This is JS');
+        // $("#myBtn").click(function () {
+        //     $(".box").animate({
+        //         left: '250px',
+        //         opacity: '0.5',
+        //         height: '150px',
+        //         width: '150px'
+        //     });
+
+        //     // $(".notification").slideToggle();
+
+        //     // $("#abc").html("Clicked");
+        // });
+
+        // $('#show').click(function () {
+        //     $('.notification').show(300);
+        // });
+    });
+</script>
+
+</html>

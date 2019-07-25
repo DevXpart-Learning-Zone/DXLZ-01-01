@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .my-slider {
+            height: 300px;
+            width: 100%;
+        }
+
+        .my-slider a.slick-prev.slick-arrow {
+            position: absolute;
+            top: 43%;
+            left: 15px;
+            z-index: 9999;
+        }
+
+        a.slick-arrow {
+            background: #ddd;
+            padding: 10px;
+            border: 2px solid #ddd;
+        }
+
+        .my-slider a.slick-next.slick-arrow {
+            position: absolute;
+            top: 43%;
+            right: 15px;
+            z-index: 9999;
+        }
+
+        .my-slider .slick-slide img {
+            height: auto;
+            width: 100%;
+            overflow: hidden;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="slider" class="my-slider">
+        <div>
+            <img src="assets/images//slider/1.jpg" alt="">
+        </div>
+        <div>Slide 2</div>
+        <div>Slide 3</div>
+        <div>Slide 4</div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $('#slider').slick({
+            prevArrow: '<a class="slick-prev"><i class="material-icons">keyboard_arrow_left</i></a >',
+            nextArrow: '<a class="slick-next"><i class="material-icons">keyboard_arrow_right</i></a >',
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+        });
+    </script>
+</body>
+
+</html>
